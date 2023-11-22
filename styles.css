@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: khaki;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: peru;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightsalmon;
+  }
+  
+  /* Media queries for different devices */
+@media only screen and (max-width: 600px) {
+    /* Styles for devices with a screen width up to 600px */
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    label {
+      font-size: 16px;
+    }
+  
+    input {
+      padding: 6px;
+    }
+  
+    button {
+      padding: 8px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    /* Styles for devices with a screen width between 601px and 1200px */
+    body {
+      font-size: 16px;
+    }
+  }
